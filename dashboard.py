@@ -44,7 +44,7 @@ with tab2:
 
 with tab3:
     selected_city = st.selectbox("Pilih kota:", all_df["station"].unique(),
-                                index=None, placeholder="Silahkan pilih kota...")
+                                placeholder="Silahkan pilih kota...")
 
     filtered_df = filter_data_by_city(all_df, selected_city)
 
